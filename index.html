@@ -12,29 +12,29 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <section class="header__navigation">
-                <a href="#" class="header__navigation__logo">Best Shop</a>
-                <nav>
-                    <ul>
-                        <li><a href="#">WHY US</a></li>
-                        <li><a href="#">BENEFITS</a></li>
-                        <li><a href="#">PRICES</a></li>
-                        <li><a href="#">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </section>
+        <section class="header__navigation">
+            <a href="#" class="header__navigation__logo">Best Shop</a>
+            <nav>
+                <ul>
+                    <li><a href="#why__us">WHY US</a></li>
+                    <li><a href="#benefits">BENEFITS</a></li>
+                    <li><a href="#prices">PRICES</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </section>
+        <div class="container container__open__section">
             <section class="header__open__section">
                 <h1>Sell More!</h1>
                 <p>Open shop on our platform and increase your sales</p>
-                <a href="#">Open your shop</a>
+                <a href="#" class="btn">Open your shop</a>
             </section>
         </div>
     </header>
 
     <main>
         <div class="container">
-            <section class="main__container__platform">
+            <section id="why__us" class="main__container__platform">
                 <h2>The most popular sales platform in country</h2>
                 <div class="main__container__platform__cards">
                     <div class="main__container__platform__cards__card card_1">
@@ -63,11 +63,12 @@
                 </div>
             </section>
 
-            <section class="main__container__benefits">
+            <section id="benefits" class="main__container__benefits">
                 <div class="main__container__benefits__benefit1 benefitbox">
                     <div class="main__container__benefits__benefit1__content">
                         <h3>Be always first</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <div class="main__container__benefits__benefit1__content__border border"></div>
                     </div>
 
                     <div class="main__container__benefits__benefit1__img">
@@ -86,6 +87,7 @@
                         <h3>Your shop is <br>
                             where you are!</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <div class="main__container__benefits__benefit2__content__border border"></div>
                     </div>
                 </div>
 
@@ -94,6 +96,7 @@
                         <h3>Increase recognition <br>
                             your brand!</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                        <div class="main__container__benefits__benefit3__content__border border"></div>
                     </div>
 
                     <div class="main__container__benefits__benefit3__img">
@@ -104,7 +107,7 @@
         </div>
     </main>
 
-    <section class="pricing">
+    <section id="prices" class="pricing">
         <div class="container">
             <div class="pricing__container">
                 <h3>Pricing</h3>
@@ -119,7 +122,7 @@
                                 <li class="not__included">Two years license</li>
                                 <li class="not__included">Full support</li>
                              </ul>
-                            <a href="#" class="optionbox__button__basic">Begin</a>
+                            <a href="#" class="optionbox__button__basic btn">Begin</a>
                     </div>
 
                     <div class="pricing_options__professional optionbox">
@@ -135,7 +138,7 @@
                                 <li class="included">One years license</li>
                                 <li class="not__included">Full support</li>
                             </ul>
-                            <a href="#" class="optionbox__button__profesional">Begin</a>
+                            <a href="#" class="optionbox__button__profesional btn">Begin</a>
                     </div>
 
                     <div class="pricing_options__premium optionbox">
@@ -149,14 +152,14 @@
                                 <li class="included">Two years license</li>
                                 <li class="included">Full support</li>
                             </ul>
-                            <a href="#" class="optionbox__button__premium">Begin</a>
+                            <a href="#" class="optionbox__button__premium btn">Begin</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="question">
+    <section id="contact" class="question">
         <div class="container">
             <div class="question__container">
                  <div class="question__container__info">
@@ -171,13 +174,34 @@
                  </div>
 
                 <div class="question__container__form">
-                    
+                    <label class="label" for="name">NAME</label>
+                    <input type="text" id="name">
+                    <label class="label" for="email">EMAIL</label>
+                    <input type="text" id="email">
+                    <label class="checkbox" for="checkbox">
+                        <input type="checkbox" id="checkbox">
+                        <span></span>
+                        I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)
+                    </label>
+                    <button class="question__container__form__btn btn">Send</button>
 
                     </div>
                 </div>
-            </div>
         </div>
     </section>
 
+    <footer>
+            <div class="footer__container">
+                <div class="footer__container__logo-copyright">
+                    <a href="#" ><h6>BestShop</h6></a>
+                    <p>&copy; 2019 BestShop LTD, All Rights Reserved</p>
+                </div>
+                <div class="footer__container__fb-tw">
+                    <a class="twitter_icon btn1" href="https://twitter.com/?lang=pl" target="_blank"><img src="assets/Twitter.svg" alt="twitter icon" class="twitter_icon"></a>
+                    <a  class="facebook_icon btn1" href="https://www.facebook.com/" target="_blank"><img src="assets/Facebook.svg" alt="facebook icon" class="facebook_icon_icon"></a>
+                </div>
+            </div>
+    </footer>
 </body>
 </html>
+
