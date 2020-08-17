@@ -12,9 +12,17 @@
 
 }
 
+body {
+    font-family: var(--font-open-sans);
+}
+
+a {
+    text-decoration: none;
+}
+
 .container{
     margin: 0 auto;
-    width: 1352px;
+    max-width: 1352px;
     height: 100%;
 }
 
@@ -42,12 +50,10 @@ header{
 
 .header__navigation__logo{
     color: var(--color-primary);
-    font-size: 32px;
-    line-height: 37px;
+    font-size: 2rem;
+    line-height: 2.3125rem;
     font-weight: 300;
     font-family: var(--font-relaway);
-    text-decoration: none;
-
 }
 
 nav ul{
@@ -59,9 +65,7 @@ nav ul{
 nav ul a{
     padding: 30px 27px;
     margin: 0 20px;
-    text-decoration: none;
-    font-family: var(--font-open-sans);
-    font-size: 11px;
+    font-size: 0.6875rem;
     font-weight: bold;
     color: var(--color-grey);
 }
@@ -86,7 +90,7 @@ nav ul a:active{
 }
 
 .header__open__section h1{
-    font-size: 49px;
+    font-size: 3.0625rem;
     font-weight: 400;
     font-family: var(--font-relaway);
     line-height: 57px;
@@ -96,9 +100,8 @@ nav ul a:active{
 }
 
 .header__open__section p{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    font-family: var(--font-open-sans);
     line-height: 22px;
     color: var(--color-black);
 }
@@ -106,13 +109,11 @@ nav ul a:active{
 .header__open__section a{
     color: var(--color-white);
     padding: 22px 157px;
-    font-family: var(--font-open-sans);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 22px;
     font-weight: 600;
     background-color: var(--color-primary);
     margin-top: 38px;
-    text-decoration: none;
     border-radius: 50px;
 }
 
@@ -160,7 +161,7 @@ nav ul a:active{
 
 .main__container__platform h2{
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 42px;
     font-family: var(--font-relaway);
     margin: 100px 0;
@@ -184,7 +185,7 @@ nav ul a:active{
 }
 
 .main__container__platform__cards__card :nth-child(2){
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 700;
     line-height: 24px;
     font-family: var(--font-relaway);
@@ -194,7 +195,7 @@ nav ul a:active{
 }
 
 .main__container__platform__cards__card :nth-child(3){
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 19px;
     font-family: var(--font-relaway);
@@ -221,20 +222,19 @@ nav ul a:active{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-bottom: 37px;
+    margin-bottom: 2.3125rem;
 }
 
 .benefitbox h3{
     font-family: var(--font-relaway);
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 42px;
     font-weight: 400;
     margin-bottom: 30px;
 }
 
 .benefitbox p{
-    font-family: var(--font-open-sans);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 22px;
     font-weight: 400;
 }
@@ -371,7 +371,7 @@ nav ul a:active{
 
 .pricing__container h3{
     font-weight: 400;
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--font-relaway);
     line-height: 42px;
     margin-bottom: 50px;
@@ -425,7 +425,7 @@ nav ul a:active{
     box-sizing: border-box;
     margin: 34px 0 30px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: var(--font-relaway);
 }
 
@@ -438,9 +438,8 @@ nav ul a:active{
 .optionbox p:nth-of-type(1) ,
 .basis_margin_0{
     text-align: center;
-    font-family: var(--font-open-sans);
     font-weight: 100;
-    font-size: 46px;
+    font-size: 2.875rem;
 }
 
 .pricing_options__professional p:nth-of-type(1){
@@ -454,7 +453,7 @@ nav ul a:active{
 .limited__offer__professional{
     font-family: var(--font-relaway);
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin: 20px 0 61px;
 
 }
@@ -462,7 +461,7 @@ nav ul a:active{
 .limited__offer__premium{
     font-family: var(--font-relaway);
     font-weight: 600;
-    font-size: 12px;
+    font-size: 0.75rem;
     margin: 20px 0 40px;
 }
 
@@ -470,16 +469,32 @@ nav ul a:active{
 .optionbox ul{
     display: flex;
     flex-direction: column;
-    text-decoration: none;
     align-items: center;
 }
 
 li.included,
 li.not__included{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 400;
-    font-family: var(--font-open-sans);
     margin: 10px;
+}
+
+.included::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("../assets/Checkmark-1.svg");
+}
+
+.not__included::before {
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 10px;
+    background-image: url("../assets/Close.svg");
 }
 
 
@@ -487,12 +502,10 @@ li.not__included{
     position: relative;
     padding: 16px 57px;
     background-color: var(--color-redish);
-    font-family: var(--font-open-sans);
     font-weight: 600;
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: white;
     border-radius: 23px;
-    text-decoration: none;
     bottom: -75px;
 
 
@@ -502,12 +515,10 @@ li.not__included{
     position: relative;
     padding: 16px 65px;
     background-color: var(--color-primary);
-    font-family: var(--font-open-sans);
     font-weight: 600;
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: white;
     border-radius: 23px;
-    text-decoration: none;
     bottom: -80px;
 
 
@@ -516,12 +527,10 @@ li.not__included{
     position: relative;
     padding: 16px 57px;
     background-color: var(--color-green);
-    font-family: var(--font-open-sans);
     font-weight: 600;
-    font-size: 13px;
+    font-size: 0.8125rem;
     color: white;
     border-radius: 23px;
-    text-decoration: none;
     bottom: -65px;
 }
 .question{
@@ -545,15 +554,14 @@ li.not__included{
 
 .question__container__info h5{
     font-family: var(--font-relaway);
-    font-size: 49px;
+    font-size: 3.0625rem;
     line-height: 57px;
     font-weight: 400;
     margin-bottom: 22px;
 }
 
 .question__container__info p{
-    font-family: var(--font-open-sans);
-    font-size: 16px;
+    font-size: 1rem;
     line-height: 22px;
     font-weight: 400;
     margin-bottom: 42px;
@@ -561,9 +569,8 @@ li.not__included{
 
 .question__container__info__mail-phone{
     display: inline-flex;
-    font-family: var(--font-open-sans);
     color: var(--color-grey);
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     line-height: 22px;
 }
@@ -598,10 +605,9 @@ input[type="text"] {
 
 .label {
     margin-bottom: 22px;
-    font-size: 11px;
+    font-size: 0.6875rem;
     font-weight: 600;
     line-height: 15px;
-    font-family: var(--font-open-sans);
     color: var(--color-primary);
 }
 
@@ -643,9 +649,12 @@ input[type="checkbox"] {
 }
 
 .checkbox input:checked + span {
-    background-color: #E91E63;
-
+    background-image: url(../assets/Checkmark.svg);
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
 }
+
 
 .checkbox:checked:after {
     content: "";
@@ -656,9 +665,8 @@ input[type="checkbox"] {
 }
 
 .checkbox{
-    font-family: var(--font-open-sans);
     font-weight: 400;
-    font-size: 12px;
+    font-size: 0.75rem;
     line-height: 17px;
     color: var(--color-grey);
 }
@@ -670,9 +678,8 @@ input[type="checkbox"] {
     background-color: var(--color-primary);
     margin-top: 20px;
     color: var(--color-white);
-    font-size: 13px;
+    font-size: 0.8125rem;
     line-height: 18px;
-    font-family: var(--font-open-sans);
     font-weight: 600;
     border-radius: 50px;
 }
@@ -707,16 +714,14 @@ input[type="checkbox"] {
 .footer__container__logo-copyright a{
     font-weight: 300;
     font-family: var(--font-relaway);
-    font-size: 26px;
+    font-size: 1.625rem;
     line-height: 30px;
     color: var(--color-primary);
-    text-decoration: none;
 }
 
 .footer__container__logo-copyright p{
     font-weight: 400;
-    font-family: var(--font-open-sans);
-    font-size: 11px;
+    font-size: 0.6875rem;
     line-height: 15px;
     color: var(--color-grey);
     margin-bottom: 17px;
