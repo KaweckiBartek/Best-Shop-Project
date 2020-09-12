@@ -1,0 +1,40 @@
+@import "../settings/index";
+
+
+.footer__container{
+  margin-top: 60px;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 -5px 40px #00000029;
+  padding: 0 136px;
+}
+.footer__container__logo-copyright{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.footer__container__logo-copyright h6,
+.footer__container__logo-copyright a{
+  font-weight: 300;
+  font-family: var(--font-relaway);
+  font-size: 1.625rem;
+  line-height: 30px;
+  color: var(--color-primary);
+}
+
+.footer__container__logo-copyright p{
+  font-weight: 400;
+  font-size: 0.6875rem;
+  line-height: 15px;
+  color: var(--color-grey);
+  margin-bottom: 17px;
+}
+
+.twitter_icon{
+  margin-right: 10px;
+  line-height: 1px;
+}
