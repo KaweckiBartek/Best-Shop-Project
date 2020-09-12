@@ -20,15 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6e57e0-8293-47aa-b8f4-1d1d4b5994a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/scss/generic/_reset.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/settings/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/settings/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/settings/_index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/settings/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/elements/_base.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/elements/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/elements/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/elements/_main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/elements/_navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/generic/_grid.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/settings/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/settings/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/settings/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/settings/_mixins.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +88,7 @@
       <workItem from="1597649787512" duration="9000" />
       <workItem from="1597649907564" duration="908000" />
       <workItem from="1598085052273" duration="509000" />
-      <workItem from="1599891633852" duration="1641000" />
+      <workItem from="1599891633852" duration="10338000" />
     </task>
     <servers />
   </component>
