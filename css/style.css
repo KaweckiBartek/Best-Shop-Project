@@ -46,6 +46,8 @@ header{
     justify-content: space-between;
     align-items: center;
     box-shadow: 0 3px 6px #00000029;
+    background-color: white;
+    z-index: 5;
 }
 
 .header__navigation__logo{
