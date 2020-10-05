@@ -2,6 +2,9 @@
 
 .question{
   height: 376px;
+  @include mobile{
+    height: 651px;
+  }
 
   .question__container{
     max-width: 896px;
@@ -12,11 +15,12 @@
 
     @include mobile{
       flex-direction: column;
+      align-items: center;
       height: 651px;
     }
 
     &__info{
-      width: 440px;
+      max-width: 440px;
       height: 158px;
       color: $color-black;
 
@@ -57,7 +61,7 @@
     }
 
     &__form{
-      width: 440px;
+      max-width: 440px;
       height: 365px;
       box-sizing: border-box;
       display: flex;

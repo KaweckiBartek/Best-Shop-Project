@@ -67,12 +67,18 @@
             justify-content: center;
             align-items: center;
             height: 100%;
+            padding-top: 40px;
 
           }
         }
 
         .price{
           text-align: center;
+          @include mobile{
+            margin: 18px;
+
+          }
+
         }
 
 
@@ -186,7 +192,7 @@
         .optionbox__button__profesional{
           padding: 16px 65px;
           background-color: $color-primary;
-          bottom: -75px;
+          bottom: -83px;
           @include mobile{
             bottom: -25px;
           }
@@ -213,7 +219,7 @@
 
         .optionbox__button__premium{
           background-color: $color-green;
-          bottom: -75px;
+          bottom: -65px;
           @include mobile{
             bottom: -25px;
           }

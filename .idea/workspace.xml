@@ -24,15 +24,11 @@
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_base.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_benefits.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_opening.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_opening.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_platform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_platform.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_pricing.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_question.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_question.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/settings/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/settings/_mixins.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,9 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -89,7 +87,10 @@
       <workItem from="1597649787512" duration="9000" />
       <workItem from="1597649907564" duration="908000" />
       <workItem from="1598085052273" duration="509000" />
-      <workItem from="1599891633852" duration="39537000" />
+      <workItem from="1599891633852" duration="39914000" />
+      <workItem from="1600343193632" duration="3330000" />
+      <workItem from="1600438770375" duration="1459000" />
+      <workItem from="1601809128013" duration="4097000" />
     </task>
     <servers />
   </component>
@@ -113,10 +114,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="434" y="308" key="#SCSS_Lint/0.0.1440.900@0.0.1440.900" timestamp="1600109078639" />
+    <state x="407" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600343090306">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="407" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1440.900@0.0.1440.900" timestamp="1600343090306" />
     <state x="457" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599907003803">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="457" y="203" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1599907003803" />
+    <state x="470" y="303" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1600417680260">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="470" y="303" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1600417680260" />
     <state x="228" y="89" key="SettingsEditor" timestamp="1600099847619">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

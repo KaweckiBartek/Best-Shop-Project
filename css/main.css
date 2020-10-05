@@ -413,6 +413,7 @@ h2 {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  max-width: 1300px;
 }
 .header .nav__element {
   padding: 0 26px;
@@ -667,27 +668,22 @@ h2 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-@media (max-width: 792px) {
-  .main__container__benefits {
-    background-color: #F7F7F7;
-  }
+  background-color: #F7F7F7;
 }
 .main__container__benefits .benefitbox {
   margin: 0 auto 2.3125rem auto;
   max-width: 1124px;
-  height: 370px;
+  max-height: 370px;
   display: flex;
   justify-content: space-between;
+  background-color: white;
+  border: 1px solid #E8E9ED;
+  border-radius: 5px;
 }
 @media (max-width: 792px) {
   .main__container__benefits .benefitbox {
     align-items: center;
     width: 90%;
-    border: 1px solid #E8E9ED;
-    border-radius: 5px;
-    background-color: white;
-    padding: 0 21px 30px 21px;
   }
 }
 .main__container__benefits .benefitbox h3 {
@@ -722,7 +718,7 @@ h2 {
   }
 }
 .main__container__benefits__benefit1__content {
-  width: 416px;
+  max-width: 416px;
   height: 188px;
   margin: 91px 35px;
 }
@@ -780,7 +776,7 @@ h2 {
   border-radius: 41px;
   background-color: #FB3B64;
 }
-@media (max-width: 1024px) {
+@media (max-width: 792px) {
   .main__container__benefits__benefit1__img .pane {
     width: 100px;
     height: 100px;
@@ -794,7 +790,7 @@ h2 {
   }
 }
 .main__container__benefits__benefit2__content {
-  width: 416px;
+  max-width: 416px;
   height: 230px;
   margin: 70px 20px;
 }
@@ -803,6 +799,7 @@ h2 {
     width: 100%;
     height: 50%;
     margin: 0 auto;
+    padding: 0 21px 30px 21px;
   }
 }
 .main__container__benefits__benefit2__content__border {
@@ -814,9 +811,10 @@ h2 {
   }
 }
 .main__container__benefits__benefit2__img {
-  width: 426px;
+  max-width: 426px;
   height: 328px;
   position: relative;
+  margin: 16px 67px;
 }
 @media (max-width: 792px) {
   .main__container__benefits__benefit2__img {
@@ -852,20 +850,26 @@ h2 {
     height: 131px;
   }
 }
+@media (max-width: 792px) {
+  .main__container__benefits__benefit3 {
+    flex-direction: column;
+    padding: 0;
+  }
+}
 .main__container__benefits__benefit3__content {
-  width: 623px;
-  height: 370px;
+  max-width: 623px;
+  max-height: 370px;
   padding: 70px 35px;
   border: 1px solid #E8E9ED;
   border-radius: 5px;
 }
 @media (max-width: 792px) {
   .main__container__benefits__benefit3__content {
-    width: 100%;
+    max-width: 415px;
     height: 50%;
-    margin: 0 auto;
-    padding: 20px 0 0 0;
     border: none;
+    margin: 21px;
+    padding: 0 21px 30px 21px;
   }
 }
 .main__container__benefits__benefit3__content__border {
@@ -877,17 +881,19 @@ h2 {
   }
 }
 .main__container__benefits__benefit3__img {
-  width: 440px;
+  width: 393px;
   height: 370px;
   background-color: #55DFB4;
   display: flex;
   z-index: 1;
-  padding: 98px 82px 64px 62px;
+  justify-content: center;
+  align-items: center;
   border-radius: 5px;
 }
 @media (max-width: 792px) {
   .main__container__benefits__benefit3__img {
-    width: 314px;
+    margin-top: 30px;
+    width: 100%;
     height: 195px;
   }
 }
@@ -895,6 +901,14 @@ h2 {
   width: 296px;
   height: 208px;
 }
+@media (max-width: 792px) {
+  .main__container__benefits__benefit3__img .image__trumpet {
+    margin-top: 20px;
+    width: 296px;
+    height: 100%;
+  }
+}
+
 .pricing {
   width: 100%;
   height: 616px;
@@ -967,10 +981,16 @@ h2 {
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding-top: 40px;
   }
 }
 .pricing .pricing__container .pricing__container__options .optionbox .price {
   text-align: center;
+}
+@media (max-width: 792px) {
+  .pricing .pricing__container .pricing__container__options .optionbox .price {
+    margin: 18px;
+  }
 }
 .pricing .pricing__container .pricing__container__options .optionbox li.included,
 .pricing .pricing__container .pricing__container__options .optionbox li.not__included {
@@ -1072,7 +1092,7 @@ h2 {
 .pricing .pricing__container .pricing__container__options .pricing_options__professional .optionbox__button__profesional {
   padding: 16px 65px;
   background-color: #08A6E4;
-  bottom: -75px;
+  bottom: -83px;
 }
 @media (max-width: 792px) {
   .pricing .pricing__container .pricing__container__options .pricing_options__professional .optionbox__button__profesional {
@@ -1094,7 +1114,7 @@ h2 {
 }
 .pricing .pricing__container .pricing__container__options .pricing_options__premium .optionbox__button__premium {
   background-color: #55DFB4;
-  bottom: -75px;
+  bottom: -65px;
 }
 @media (max-width: 792px) {
   .pricing .pricing__container .pricing__container__options .pricing_options__premium .optionbox__button__premium {
@@ -1114,6 +1134,11 @@ h2 {
 .question {
   height: 376px;
 }
+@media (max-width: 792px) {
+  .question {
+    height: 651px;
+  }
+}
 .question .question__container {
   max-width: 896px;
   height: 100%;
@@ -1124,11 +1149,12 @@ h2 {
 @media (max-width: 792px) {
   .question .question__container {
     flex-direction: column;
+    align-items: center;
     height: 651px;
   }
 }
 .question .question__container__info {
-  width: 440px;
+  max-width: 440px;
   height: 158px;
   color: #000000;
 }
@@ -1164,7 +1190,7 @@ h2 {
   margin: 0 20px 0 10px;
 }
 .question .question__container__form {
-  width: 440px;
+  max-width: 440px;
   height: 365px;
   box-sizing: border-box;
   display: flex;
@@ -1264,32 +1290,33 @@ h2 {
   box-shadow: 0 -5px 40px #00000029;
   padding: 0 136px;
 }
-
+@media (max-width: 792px) {
+  .footer__container {
+    padding: 0 20px;
+    margin-top: 90px;
+  }
+}
 .footer__container__logo-copyright {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
-
-.footer__container__logo-copyright h6,
-.footer__container__logo-copyright a {
+.footer__container__logo-copyright h6, .footer__container__logo-copyright a {
   font-weight: 300;
-  font-family: var(--font-relaway);
+  font-family: "Raleway", sans-serif;
   font-size: 1.625rem;
   line-height: 30px;
-  color: var(--color-primary);
+  color: #08A6E4;
 }
-
 .footer__container__logo-copyright p {
   font-weight: 400;
   font-size: 0.6875rem;
   line-height: 15px;
-  color: var(--color-grey);
+  color: #A5A5A5;
   margin-bottom: 17px;
 }
-
-.twitter_icon {
+.footer__container .twitter_icon {
   margin-right: 10px;
   line-height: 1px;
 }
