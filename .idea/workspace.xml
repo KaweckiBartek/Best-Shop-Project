@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6e57e0-8293-47aa-b8f4-1d1d4b5994a6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/Arrow Down.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scss/elements/_calculator.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_pricing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_question.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_question.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +102,7 @@
       <workItem from="1600343193632" duration="3330000" />
       <workItem from="1600438770375" duration="1459000" />
       <workItem from="1601809128013" duration="4704000" />
-      <workItem from="1602918233338" duration="18121000" />
+      <workItem from="1602918233338" duration="18794000" />
     </task>
     <servers />
   </component>
@@ -153,6 +144,10 @@
     </state>
     <state x="1744" y="107" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1602918491757" />
     <state x="228" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600099847619" />
+    <state x="1999" y="277" key="Vcs.Push.Dialog.v2" timestamp="1602938351083">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1999" y="277" key="Vcs.Push.Dialog.v2/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1602938351083" />
     <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1600109291029">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
