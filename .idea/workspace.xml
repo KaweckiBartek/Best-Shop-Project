@@ -20,15 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e6e57e0-8293-47aa-b8f4-1d1d4b5994a6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/Arrow Down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scss/elements/_calculator.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_benefits.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_benefits.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_pricing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scss/elements/_question.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_question.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +47,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/index.html" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1g7pGEl3WXQWBNUQKztMvbo8dNs" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,16 +65,31 @@
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="copyright" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/scss/generic" />
       <recent name="$PROJECT_DIR$/scss/settings" />
       <recent name="$PROJECT_DIR$/css" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Best-Shop/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,7 +109,8 @@
       <workItem from="1599891633852" duration="39914000" />
       <workItem from="1600343193632" duration="3330000" />
       <workItem from="1600438770375" duration="1459000" />
-      <workItem from="1601809128013" duration="4097000" />
+      <workItem from="1601809128013" duration="4704000" />
+      <workItem from="1602918233338" duration="17700000" />
     </task>
     <servers />
   </component>
@@ -110,9 +130,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="434" y="308" key="#SCSS_Lint" timestamp="1600109078639">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="2019" y="370" key="#SCSS_Lint" timestamp="1602920548616">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
+    <state x="2019" y="370" key="#SCSS_Lint/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1602920548616" />
     <state x="434" y="308" key="#SCSS_Lint/0.0.1440.900@0.0.1440.900" timestamp="1600109078639" />
     <state x="407" y="192" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600343090306">
       <screen x="0" y="0" width="1440" height="900" />
@@ -126,18 +147,20 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="470" y="303" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1600417680260" />
-    <state x="228" y="89" key="SettingsEditor" timestamp="1600099847619">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1744" y="107" key="SettingsEditor" timestamp="1602918491757">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
+    <state x="1744" y="107" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1602918491757" />
     <state x="228" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1600099847619" />
     <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1600109291029">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="dock-window-1/0.23.1440.829@0.23.1440.829" timestamp="1600109291029" />
-    <state x="383" y="194" width="672" height="678" key="search.everywhere.popup" timestamp="1600114949820">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1951" y="233" width="896" height="814" key="search.everywhere.popup" timestamp="1602919434508">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@0.0.1440.900" timestamp="1597505654937" />
+    <state x="1951" y="233" width="896" height="814" key="search.everywhere.popup/0.0.1440.900/1440.0.1920.1080@1440.0.1920.1080" timestamp="1602919434508" />
     <state x="383" y="194" width="672" height="678" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1600114949820" />
   </component>
 </project>

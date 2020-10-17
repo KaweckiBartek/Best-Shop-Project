@@ -134,14 +134,6 @@
           background-repeat: no-repeat;
         }
 
-        &:checked:after {
-          content: "";
-          width: 11px;
-          height: 11px; border-radius: 50%; background: #fff; position: absolute; left: 50%;
-          top: 50%;
-          transform: translate(-50%, -50%);
-        }
-
       }
 
       &__btn{
