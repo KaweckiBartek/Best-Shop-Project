@@ -29,6 +29,7 @@
       <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/elements/_pricing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_pricing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scss/elements/_question.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/elements/_question.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/scss/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +111,7 @@
       <workItem from="1600343193632" duration="3330000" />
       <workItem from="1600438770375" duration="1459000" />
       <workItem from="1601809128013" duration="4704000" />
-      <workItem from="1602918233338" duration="17700000" />
+      <workItem from="1602918233338" duration="18121000" />
     </task>
     <servers />
   </component>
